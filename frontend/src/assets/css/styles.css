@@ -1,0 +1,145 @@
+.cardTitleWhite{
+    color: #fff;
+    margin-top: 0px;
+    min-height: auto;
+    font-weight: 300;
+    font-family: "'Roboto', 'Helvetica', 'Arial', sans-serif";
+    margin-bottom: 3px;
+    text-decoration: none,
+}
+
+.MuiInputBase-inputSelect{
+    padding-left: 10px !important;
+}
+.MuiFormControl-fullWidth{
+    width: 100% !important;
+}
+.MuiGrid-item .MuiFormControl-root{
+    /*width: 27%;*/
+}
+
+#searchInput{
+   color: #fff;
+   width: auto;
+}
+#searchBar label.MuiFormLabel-root{
+    color: #ffffff80;
+}
+
+#searchBar .MuiInput-underline:before{
+    border-bottom: 1px solid #ffffff90;
+}
+thead {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 2;
+}
+
+.MuiToolbar-root{
+    padding-right: 50px !important;
+}
+#linkSeller, #linkSettings{
+    color: #555;
+}
+#linkSeller:hover, #linkSettings:hover{
+    color: #fff;
+}
+.MuiSelect-icon{
+    color: #fff !important;
+}
+
+.MuiInput-underline:after{
+    border-bottom: 2px solid #fff !important;
+}
+#navBtn{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: #ffffff20;
+}
+
+#register-1, #register-2, #register-3, #register-4, #register-5{
+    margin: 5px 0;
+}
+
+#signPage .MuiGrid-item .MuiFormControl-root{
+    margin: 10px 0 0;
+}
+#select-1, #select-2, #select-3{
+    width: 27%;
+}
+#card-footer-1, #card-footer-2{
+    display: block;
+}
+#card-footer-1 button, #card-footer-2 button{
+    float:right;
+}
+#searchType{
+    width: auto !important;
+}
+#searchType .MuiInputBase-input{
+    color: #fff;
+    font-weight: 300;    
+}
+#searchType .MuiSelect-icon{ 
+    color: #fff;
+}
+.MuiTableCell-root{
+    border-bottom: 1px solid #cccccc !important; 
+}
+#search-button{
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+}
+input:-internal-autofill-selected{
+    background: transparent !important;
+}
+
+.cardTitleWhite{
+    width: 30%;
+}
+
+#chartgraph{
+    overflow-x:scroll;
+}
+
+#select_boxes #select-1,#select_boxes #select-2{
+    margin-right: 30px;
+}
+#select_boxes svg{
+    color: #555 !important;
+}
+@media (max-width: 959.95px){
+    
+    .MuiInputBase-inputSelect{
+        padding-left: 10px !important;
+    }
+    
+    .MuiSelect-select{
+        max-width: 80%;
+    }
+    #manager{
+        display:none;
+    }
+    #select-1, #select-2, #select-3{
+        margin-bottom : 25px;
+    }
+}
+@media (max-width: 560px){
+    .MuiGrid-item .MuiFormControl-root{
+        width: 100%;
+    }
+    #goBtn{
+        width: 100%;
+    }
+    .MuiToolbar-root{
+        padding-right: 15px !important;
+    }
+    #cardHeader{
+        display: inline-block;
+    }
+    #searchBar{
+        display: inline-block;
+    }
+}
